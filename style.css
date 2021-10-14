@@ -1,0 +1,34 @@
+.topBar {
+    display: flex;
+    height: 100px;
+    color: azure;
+    background-color: dodgerblue;
+    /* list-style-type: none; */
+    /* text-decoration: none; */
+}
+.container {
+    background-color: darkseagreen;
+    display: flex;
+}
+
+.mainBody {
+    flex: 1;
+    height: 600px;
+    width: auto;
+    background-color: darkolivegreen;
+    margin: 10px;
+    margin-left: 100px;
+}
+
+.sideBar {
+    flex: 1;
+    height: 600px;
+    width: auto;
+    background-color: darkslateblue;
+    margin: 10px;
+    margin-right: 100px;
+}
+
+.links {
+    text-decoration: none;
+}
