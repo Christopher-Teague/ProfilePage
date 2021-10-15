@@ -11,6 +11,9 @@
     flex: 1;
     /* padding-left: 10%; */
 }
+.bold   {
+    font-weight: bold;
+}
 
 .container {
     background-color: darkseagreen;
@@ -42,7 +45,7 @@
     justify-content: center;
 } */
 
-a:link, a:visited {
+.topBar a:link, a:visited {
     flex: 1;
     text-decoration: none;
     padding: 10px;
@@ -65,30 +68,76 @@ a:link, a:visited {
 }
 
 .profileBox {
-    background-color: beige;
+    background-color: azure;
     width: auto;
-    height: 60%;
+    height: 55%;
     margin: 1%;
 }
 
 .education {
-    background-color: beige;
+    background-color: azure;
     width: auto;
     height: 35%;
     margin: 1%;
+    margin-top: 5%;
 
 }
 
 .requests {
-    background-color: beige;
+    background-color: azure;
     width: auto;
     height: 45%;
     margin: 1%;
 }
 
 .connections {
-    background-color: beige;
+    background-color: azure;
     width: auto;
     height: 45%;
     margin: 1%;
+    margin-top: 8%;
+}
+
+.header {
+    background-color: dodgerblue;
+    height: 60px;
+}
+
+.userIcon {
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.icon-s {
+    height: 20px;
+}
+
+.userInfo {
+    padding-left: 10px;
+    margin-top: 2%;
+}
+
+.userInfo h1 {
+    padding-top: 25px;
+}
+
+.header2 {
+    background-color: midnightblue;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.header2 p {
+    color: azure;
+    font-size: larger;
+}
+
+.lighterText {
+    font-weight: lighter;
+    /* font-size: ; */
+}
+
+.edu {
+    padding-left: 20px;
 }
