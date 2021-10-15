@@ -211,3 +211,7 @@ span {
     justify-content: space-between;
     font-size: large;
 }
+
+.connections-container {
+    margin-left: 10%;
+}
