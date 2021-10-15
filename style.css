@@ -1,3 +1,7 @@
+* {
+    font-family: sans-serif;
+}
+
 .topBar {
     display: flex;
     height: 100px;
@@ -100,7 +104,7 @@
     border-width: 2px;
     border-color: midnightblue;
     /* border-radius: 8px; */
-    
+    /* display: flex; */
 }
 
 .connections {
@@ -185,4 +189,25 @@ span {
     border-radius: 8px;
     box-shadow: 3px 3px 3px grey;
     border-radius: 8px;
+}
+
+.conn-requests {
+    display: flex;
+    margin-left: 2%;
+    /* justify-content: space-around; */
+    display: inline;
+}
+
+.small-icon {
+    height: 30px;
+    padding-top: 20px;
+}
+
+.inline {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
 }
