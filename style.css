@@ -3,32 +3,92 @@
     height: 100px;
     color: azure;
     background-color: dodgerblue;
-    /* list-style-type: none; */
-    /* text-decoration: none; */
+    padding-left: 7%;
+    padding-right: 7%;
 }
+
+.topBar h1 {
+    flex: 1;
+    /* padding-left: 10%; */
+}
+
 .container {
     background-color: darkseagreen;
     display: flex;
 }
 
 .mainBody {
-    flex: 1;
-    height: 600px;
+    flex: 3;
+    height: auto;
     width: auto;
     background-color: darkolivegreen;
     margin: 10px;
-    margin-left: 100px;
+    margin-left: 7%;
 }
 
 .sideBar {
-    flex: 1;
+    flex: 2;
     height: 600px;
     width: auto;
     background-color: darkslateblue;
     margin: 10px;
-    margin-right: 100px;
+    margin-right: 7%;
 }
 
-.links {
+/* .links a {
+    display: flex;
+    flex: 1;
+    align-items: right;
+    justify-content: center;
+} */
+
+a:link, a:visited {
+    flex: 1;
     text-decoration: none;
+    padding: 10px;
+    color: azure;
+    /* text-align: center; */
+    margin-top: 3%;
+}
+
+.button {
+    flex: 2;
+    justify-content: flex-end;
+    text-align: right;
+    /* margin-top: 2.5%; */
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+    /* flex: ; */
+}
+
+.profileBox {
+    background-color: beige;
+    width: auto;
+    height: 60%;
+    margin: 1%;
+}
+
+.education {
+    background-color: beige;
+    width: auto;
+    height: 35%;
+    margin: 1%;
+
+}
+
+.requests {
+    background-color: beige;
+    width: auto;
+    height: 45%;
+    margin: 1%;
+}
+
+.connections {
+    background-color: beige;
+    width: auto;
+    height: 45%;
+    margin: 1%;
 }
