@@ -16,7 +16,7 @@
 }
 
 .container {
-    background-color: darkseagreen;
+    /* background-color: darkseagreen; */
     display: flex;
 }
 
@@ -24,7 +24,7 @@
     flex: 3;
     height: auto;
     width: auto;
-    background-color: darkolivegreen;
+    /* background-color: darkolivegreen; */
     margin: 10px;
     margin-left: 7%;
 }
@@ -33,7 +33,7 @@
     flex: 2;
     height: 600px;
     width: auto;
-    background-color: darkslateblue;
+    /* background-color: darkslateblue; */
     margin: 10px;
     margin-right: 7%;
 }
@@ -72,6 +72,9 @@
     width: auto;
     height: 55%;
     margin: 1%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: dodgerblue;
 }
 
 .education {
@@ -80,6 +83,9 @@
     height: 35%;
     margin: 1%;
     margin-top: 5%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: midnightblue;
 
 }
 
@@ -88,6 +94,9 @@
     width: auto;
     height: 45%;
     margin: 1%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: midnightblue;
 }
 
 .connections {
@@ -96,6 +105,9 @@
     height: 45%;
     margin: 1%;
     margin-top: 8%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: midnightblue;
 }
 
 .header {
@@ -126,6 +138,8 @@
     background-color: midnightblue;
     height: 40px;
     padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 1px;
 }
 
 .header2 p {
